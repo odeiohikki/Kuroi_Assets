@@ -1,2 +1,2 @@
 # Kuroi_Assets
-Recursos visuais do bot Kuroi, incluido Gifs e imagens dos personagens.
+Recursos visuais do bot Kuroi, Gifs de todas as ações dos personagens do bot. 
