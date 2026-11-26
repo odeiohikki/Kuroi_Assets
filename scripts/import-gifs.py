@@ -12,12 +12,12 @@ allowed = {
 }
 expected = {f'gifs/{name}/{action}.gif' for name, actions in allowed.items() for action in actions}
 assert len(expected) == 51
-archives = sorted(Path('incoming').glob('Kuroi_upload_*.zip'))
+archives = sorted(Path('incoming').glob('Kuroi_lote_*.zip'))
 pending = {}
 for archive in archives:
-    if not re.fullmatch(r'Kuroi_upload_0[1-6]\.zip', archive.name):
+    if not re.fullmatch(r'Kuroi_lote_(0[1-9]|1[0-6])\.zip', archive.name):
         raise ValueError(f'Nome inesperado: {archive}')
-    if archive.stat().st_size > 25_000_000:
+    if archive.stat().st_size > 10_000_000:
         raise ValueError('ZIP muito grande')
     with zipfile.ZipFile(archive) as z:
         for item in z.infolist():

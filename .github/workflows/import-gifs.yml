@@ -2,7 +2,7 @@ name: Importar GIFs RC1
 on:
   push:
     branches: [feature/kuroi-2.0]
-    paths: ['incoming/Kuroi_upload_*.zip']
+    paths: ['incoming/Kuroi_lote_*.zip']
 permissions:
   contents: write
 concurrency:

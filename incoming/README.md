@@ -1,2 +1,2 @@
 # Upload RC1
-Envie os seis arquivos Kuroi_upload_01.zip até Kuroi_upload_06.zip nesta pasta, sem extrair. O workflow aguarda os 51 GIFs e importa somente os caminhos permitidos na branch feature/kuroi-2.0. Não altera main nem retratos.
+Envie os 16 arquivos Kuroi_lote_01.zip até Kuroi_lote_16.zip sem extrair. O workflow aguarda os 51 GIFs. Não misture com os seis pacotes antigos. Não altera main nem retratos.
